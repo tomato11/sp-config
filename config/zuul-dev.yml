@@ -31,5 +31,5 @@ ribbon:
   MaxAutoRetries: 1
   
 turbine:
-  app-config: order-service, zuul
+  app-config: order-service, zuul, item-service, user-service
   cluster-name-expression: new String("default")  
